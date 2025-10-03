@@ -44,5 +44,5 @@ jobs:
     - name: Prettier formatting
       run:  npm run format:check
 
-    - name: Lint Check
-      run:  npm run lint
+    - name: Linting Check
+      run:  npm run lint -- --max-warnings=0
