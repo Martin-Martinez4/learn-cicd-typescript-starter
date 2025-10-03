@@ -36,4 +36,4 @@ jobs:
         run: gcloud info
 
       - name: Build and push Docker image
-        run:  gcloud builds submit --tag us-central1-docker.pkg.dev/decisive-fabric-474003-s6/notely-ar-repo/martmartez/notely:latest .
+        run:  gcloud builds submit --tag us-central1-docker.pkg.dev/subtle-digit-474004-j0/notely-ar-repo/martmartez/notely:latest .
